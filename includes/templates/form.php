@@ -7,6 +7,9 @@
 </head>
 <body>
     <form method="post">
+
+    <?php wp_nonce_field('wp_rest')?>
+    
     <label for="name">Name</label><br/>
     <input type="text" name="name" id="name" placeholder="name"><br/>
     
